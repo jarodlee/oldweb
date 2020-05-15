@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 
@@ -17,17 +17,17 @@ a:visited{COLOR: #000000; TEXT-DECORATION: none}
 
 a:active{color:green;text-decoration:none}
 
-a:hover{color:red;text-decoration:underline} .style4 {font-size:12px;font-family:ËÎÌå; line-height: 18px}
-.style5 {font-size:12px;font-family:ËÎÌå; line-height: 18px;color:green;}
+a:hover{color:red;text-decoration:underline} .style4 {font-size:12px;font-family:å®‹ä½“; line-height: 18px}
+.style5 {font-size:12px;font-family:å®‹ä½“; line-height: 18px;color:green;}
 .style14 {
 	font-size:14px;
-	font-family:ËÎÌå;
+	font-family:å®‹ä½“;
 	font-weight: bold;
 	line-height: 20px;
 }
 .style20 {
 	font-size:20px;
-	font-family:ËÎÌå;
+	font-family:å®‹ä½“;
 	font-weight: bold;
 	line-height: 25px;
 	color:green;
@@ -36,7 +36,7 @@ body {
 	margin-top: 0px;
 	background-image: url(images/index_32.gif);
 }
-.STYLE24 {font-family: "ÐÂËÎÌå"; line-height: 20px; color: #000000; font-size: medium;}
+.STYLE24 {font-family: "æ–°å®‹ä½“"; line-height: 20px; color: #000000; font-size: medium;}
 .STYLE25 {color: #FFFFFF}
 --> 
 
@@ -45,7 +45,7 @@ body {
 
 <base target="_blank">
 
-<title>¸Éº£ÌÄÑ§Ï°ÖÐÐÄ×£ÄúÊ¥µ®¿ìÀÖ£¬ÐÄÏëÊÂ³É£¬ÍòÊÂÈçÒâ-----¸Éº£ÌÄÊ¥µ®½Ú×£¸£ÍøÒ³</title>
+<title>å¹²æµ·æ£ å­¦ä¹ ä¸­å¿ƒç¥æ‚¨åœ£è¯žå¿«ä¹ï¼Œå¿ƒæƒ³äº‹æˆï¼Œä¸‡äº‹å¦‚æ„-----å¹²æµ·æ£ åœ£è¯žèŠ‚ç¥ç¦ç½‘é¡µ</title>
 
 </head>
 
@@ -58,20 +58,20 @@ body {
       <tr>
         <td align="center"><table width="100%"  border="0" cellspacing="0" cellpadding="2">
           <tr>
-            <td width="99%" background="images/1.gif" class="style20"><span class="STYLE24">ÇëÔÚÏÂÃæÊäÈëÄãµÄÃû×Ö</span>
+            <td width="99%" background="images/1.gif" class="style20"><span class="STYLE24">è¯·åœ¨ä¸‹é¢è¾“å…¥ä½ çš„åå­—</span>
               <FORM name=newinfo_form onSubmit="return check(this)">
                       <INPUT id=stra  tabIndex=1 maxLength=8 size=16 name=stra>
-                      <INPUT type=submit value=µã´ËÌá½» name=Submit>
+                      <INPUT type=submit value=ç‚¹æ­¤æäº¤ name=Submit>
                   </FORM></td>
           </tr>
           <tr >
             <td height="1" colspan="2" background="../hudonghd/images/dot_05.gif"></td>
           </tr>
           <tr>
-            <td colspan="2" align="center" bgcolor="#663399" class="f9"><p align="center" class="style20"><span class="STYLE25">ÓÖÊÇÒ»ÄêµÄ¡°Ê¥µ®½Ú¡±£¬</span><br>
+            <td colspan="2" align="center" bgcolor="#663399" class="f9"><p align="center" class="style20"><span class="STYLE25">åˆæ˜¯ä¸€å¹´çš„â€œåœ£è¯žèŠ‚â€ï¼Œ</span><br>
                         <font color="#F84471">
                           <SCRIPT>document.write(lusername)</SCRIPT>
-                    </font><span class="STYLE25">Í¨¹ý</span> <a href="http://www.ghtxx.cn" target="_blank"><font color="green">¸Éº£ÌÄ</a> </a><span class="STYLE25">Ïë¶ÔÄãËµ£º</span></p></td>
+                    </font><span class="STYLE25">é€šè¿‡</span> <a href="http://www.ghtxx.cn" target="_blank"><font color="green">å¹²æµ·æ£ </a> </a><span class="STYLE25">æƒ³å¯¹ä½ è¯´ï¼š</span></p></td>
           </tr>
           <tr >
             <td height="1" colspan="2" background="../hudonghd/images/dot_05.gif"></td>
@@ -92,13 +92,13 @@ body {
             <td  height="1" colspan="2" background="../hudonghd/images/dot_05.gif"></td>
           </tr>
           <tr>
-            <td height="60" colspan="2" valign="top" bgcolor="#663399" class="style14">¡¡¡¡<span class="STYLE25">Èç¹ûÄãÏëËÍÅóÓÑ×£¸££¬ÇëÔÚÏÂÃæÊäÈëÄãµÄÃû×Ö£¬½«»á×Ô¶¯Éú³Éº¬ÓÐÄãÃû×ÖµÄ¸öÐÔ×£¸££¬ÔÚÊ¥µ®½ÚÇ°Ï¦£¬¸øÄãµÄÅóÓÑËÍÈ¥Ò»·ÝÒâÍâµÄ¾ªÏ²°É£¡£¡</span></td>
+            <td height="60" colspan="2" valign="top" bgcolor="#663399" class="style14">ã€€ã€€<span class="STYLE25">å¦‚æžœä½ æƒ³é€æœ‹å‹ç¥ç¦ï¼Œè¯·åœ¨ä¸‹é¢è¾“å…¥ä½ çš„åå­—ï¼Œå°†ä¼šè‡ªåŠ¨ç”Ÿæˆå«æœ‰ä½ åå­—çš„ä¸ªæ€§ç¥ç¦ï¼Œåœ¨åœ£è¯žèŠ‚å‰å¤•ï¼Œç»™ä½ çš„æœ‹å‹é€åŽ»ä¸€ä»½æ„å¤–çš„æƒŠå–œå§ï¼ï¼</span></td>
           </tr>
           <tr>
-            <td colspan="2" align="center" bgcolor="#663399" class="style14"><span class="STYLE25">ÇëÔÚÏÂÃæÊäÈëÄãµÄÃû×Ö</span><br>
+            <td colspan="2" align="center" bgcolor="#663399" class="style14"><span class="STYLE25">è¯·åœ¨ä¸‹é¢è¾“å…¥ä½ çš„åå­—</span><br>
                     <FORM name=newinfo_form onSubmit="return check(this)">
                       <INPUT id=stra  tabIndex=1 maxLength=8 size=16 name=stra2>
-                      <INPUT type=submit value=µã´ËÌá½» name=Submit>
+                      <INPUT type=submit value=ç‚¹æ­¤æäº¤ name=Submit>
                 </FORM></td>
           </tr>
           

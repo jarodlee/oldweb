@@ -1,11 +1,11 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD><TITLE>¿ÆÑ§¼ÆËãÆ÷@ghtxx.cn</TITLE>
-<META http-equiv=Content-Type content="text/html; charset=gb2312"><!--written by GoldHuman li hai--><!--2000.8-->
+<HTML><HEAD><TITLE>ç§‘å­¦è®¡ç®—å™¨@ghtxx.cn</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8"><!--written by GoldHuman li hai--><!--2000.8-->
 <STYLE>BODY {
-	FONT-SIZE: 9pt; BACKGROUND-ATTACHMENT: fixed; COLOR: #0001fc; FONT-FAMILY: "ËÎÌå", "Arial", "Times New Roman"; BACKGROUND-COLOR: #edf0e1
+	FONT-SIZE: 9pt; BACKGROUND-ATTACHMENT: fixed; COLOR: #0001fc; FONT-FAMILY: "å®‹ä½“", "Arial", "Times New Roman"; BACKGROUND-COLOR: #edf0e1
 }
 TD {
-	FONT-SIZE: 9pt; FONT-FAMILY: "ËÎÌå", "Arial Narrow", "Times New Roman"; font-color: #000000
+	FONT-SIZE: 9pt; FONT-FAMILY: "å®‹ä½“", "Arial Narrow", "Times New Roman"; font-color: #000000
 }
 </STYLE>
 
@@ -21,7 +21,7 @@ var level="0"
 var layer=0
 
 
-//Êı×Ö¼ü
+//æ•°å­—é”®
 
 function inputkey(key)
 {
@@ -50,7 +50,7 @@ function changeSign()
         	document.calc.display.value = "-" + document.calc.display.value
 }
 
-//º¯Êı¼ü
+//å‡½æ•°é”®
 
 function inputfunction(fun,shiftfun)
 {
@@ -73,7 +73,7 @@ function inputtrig(trig,arctrig,hyp,archyp)
 }
 
 
-//ÔËËã·û
+//è¿ç®—ç¬¦
 
 function operation(join,newlevel)
 {
@@ -92,7 +92,7 @@ function operation(join,newlevel)
 	
 }
 
-//À¨ºÅ
+//æ‹¬å·
 
 function addbracket()
 {
@@ -128,7 +128,7 @@ function disbracket()
 		document.calc.bracket.value=""
 }
 
-//µÈºÅ
+//ç­‰å·
 
 function result()
 {
@@ -150,7 +150,7 @@ function result()
 }
 
 
-//ĞŞ¸Ä¼ü
+//ä¿®æ”¹é”®
 
 function backspace()
 {
@@ -175,7 +175,7 @@ function clearall()
 }
 
 
-//×ª»»¼ü
+//è½¬æ¢é”®
 
 function inputChangCarry(newcarry)
 {
@@ -245,7 +245,7 @@ function inputshift()
 		document.calc.sqr.value="x^.5"
 		document.calc.cube.value="x^.3"
 		
-		document.calc.floor.value="Ğ¡Êı"
+		document.calc.floor.value="å°æ•°"
 	}
 	else
 	{
@@ -269,11 +269,11 @@ function inputshift()
 		document.calc.sqr.value="x^2 "
 		document.calc.cube.value="x^3 "
 		
-		document.calc.floor.value="È¡Õû"
+		document.calc.floor.value="å–æ•´"
 	}
 
 }
-//´æ´¢Æ÷²¿·Ö
+//å­˜å‚¨å™¨éƒ¨åˆ†
 
 function clearmemory()
 {
@@ -319,7 +319,7 @@ function multimemory()
 		document.calc.memory.value=" M "
 }
 
-//Ê®½øÖÆ×ª»»
+//åè¿›åˆ¶è½¬æ¢
 
 function todec(num,oldcarry)
 {
@@ -350,7 +350,7 @@ function decto(num,newcarry)
 	return(newnum)
 }
 
-//±í´ïÊ½½âÎö
+//è¡¨è¾¾å¼è§£æ
 
 function parse(string)
 {
@@ -360,7 +360,7 @@ function parse(string)
 		return(string)
 }
 
-//ÊıÑ§ÔËËãºÍÎ»ÔËËã
+//æ•°å­¦è¿ç®—å’Œä½è¿ç®—
 
 function cypher(left,join,right)
 {
@@ -386,11 +386,11 @@ function cypher(left,join,right)
 		return(decto(left^right,carry))
 	if (join=="<")
 		return(decto(left<<right,carry))
-	alert("³ıÊı²»ÄÜÎªÁã")
+	alert("é™¤æ•°ä¸èƒ½ä¸ºé›¶")
 	return(left)
 }
 
-//º¯Êı¼ÆËã
+//å‡½æ•°è®¡ç®—
 
 function funcalc(fun,num)
 {
@@ -489,11 +489,11 @@ function funcalc(fun,num)
 
 		if (fun=="ahypsin" | fun=="hypcos" | fun=="hyptan")
 		{
-			alert("¶Ô²»Æğ,¹«Ê½»¹Ã»ÓĞ²éµ½!")
+			alert("å¯¹ä¸èµ·,å…¬å¼è¿˜æ²¡æœ‰æŸ¥åˆ°!")
 			return(num)
 		}
 		
-		alert("³¬³öº¯Êı¶¨Òå·¶Î§")
+		alert("è¶…å‡ºå‡½æ•°å®šä¹‰èŒƒå›´")
 		return(num)
 	}
 }
@@ -549,7 +549,7 @@ function radiansToDegress(radians)
 	return(radians*180/Math.PI)
 }
 
-//½çÃæ
+//ç•Œé¢
 
 //-->
 </SCRIPT>
@@ -575,28 +575,28 @@ function radiansToDegress(radians)
         <TBODY>
         <TR>
           <TD width=290><INPUT onclick=inputChangCarry(16) type=radio 
-            name=carry> Ê®Áù½øÖÆ <INPUT onclick=inputChangCarry(10) type=radio 
-            CHECKED name=carry> Ê®½øÖÆ <INPUT onclick=inputChangCarry(8) type=radio 
-            name=carry> °Ë½øÖÆ <INPUT onclick=inputChangCarry(2) type=radio 
-            name=carry> ¶ş½øÖÆ </TD>
+            name=carry> åå…­è¿›åˆ¶ <INPUT onclick=inputChangCarry(10) type=radio 
+            CHECKED name=carry> åè¿›åˆ¶ <INPUT onclick=inputChangCarry(8) type=radio 
+            name=carry> å…«è¿›åˆ¶ <INPUT onclick=inputChangCarry(2) type=radio 
+            name=carry> äºŒè¿›åˆ¶ </TD>
           <TD></TD>
           <TD width=135><INPUT onClick="inputChangAngle('d')" type=radio 
-            CHECKED value=d name=angle> ½Ç¶ÈÖÆ <INPUT 
-            onclick="inputChangAngle('r')" type=radio value=r name=angle> »¡¶ÈÖÆ 
+            CHECKED value=d name=angle> è§’åº¦åˆ¶ <INPUT 
+            onclick="inputChangAngle('r')" type=radio value=r name=angle> å¼§åº¦åˆ¶ 
         </TD></TR></TBODY></TABLE>
       <TABLE width=500>
         <TBODY>
         <TR>
           <TD width=170><INPUT onclick=inputshift() type=checkbox 
-            name=shiftf>ÉÏµµ¹¦ÄÜ <INPUT onclick=inputshift() type=checkbox 
-            name=hypf>Ë«Çúº¯Êı </TD>
+            name=shiftf>ä¸Šæ¡£åŠŸèƒ½ <INPUT onclick=inputshift() type=checkbox 
+            name=hypf>åŒæ›²å‡½æ•° </TD>
           <TD><INPUT style="BACKGROUND-COLOR: lightgrey" readOnly size=3 
             name=bracket> <INPUT style="BACKGROUND-COLOR: lightgrey" readOnly 
             size=3 name=memory> <INPUT style="BACKGROUND-COLOR: lightgrey" 
             readOnly size=3 name=operator> </TD>
-          <TD width=183><INPUT style="COLOR: red" onclick=backspace() type=button value=" ÍË¸ñ "> 
-<INPUT style="COLOR: red" onClick="document.calc.display.value = 0 " type=button value=" ÇåÆÁ "> 
-<INPUT style="COLOR: red" onclick=clearall() type=button value=" È«Çå"> 
+          <TD width=183><INPUT style="COLOR: red" onclick=backspace() type=button value=" é€€æ ¼ "> 
+<INPUT style="COLOR: red" onClick="document.calc.display.value = 0 " type=button value=" æ¸…å± "> 
+<INPUT style="COLOR: red" onclick=clearall() type=button value=" å…¨æ¸…"> 
           </TD></TR></TBODY></TABLE>
       <TABLE width=500>
         <TBODY>
@@ -644,19 +644,19 @@ function radiansToDegress(radians)
             <TABLE>
               <TBODY>
               <TR>
-                <TD><INPUT style="COLOR: red" onclick=putmemory() type=button value=" ´¢´æ "> 
+                <TD><INPUT style="COLOR: red" onclick=putmemory() type=button value=" å‚¨å­˜ "> 
                 </TD></TR>
               <TR>
-                <TD><INPUT style="COLOR: red" onclick=getmemory() type=button value=" È¡´æ "> 
+                <TD><INPUT style="COLOR: red" onclick=getmemory() type=button value=" å–å­˜ "> 
                 </TD></TR>
               <TR>
-                <TD><INPUT style="COLOR: red" onclick=addmemory() type=button value=" ÀÛ´æ "> 
+                <TD><INPUT style="COLOR: red" onclick=addmemory() type=button value=" ç´¯å­˜ "> 
                 </TD></TR>
               <TR>
-                <TD><INPUT style="COLOR: red" onclick=multimemory() type=button value=" »ı´æ "> 
+                <TD><INPUT style="COLOR: red" onclick=multimemory() type=button value=" ç§¯å­˜ "> 
                 </TD></TR>
               <TR>
-                <TD height=33><INPUT style="COLOR: red" onclick=clearmemory() type=button value=" Çå´æ "> 
+                <TD height=33><INPUT style="COLOR: red" onclick=clearmemory() type=button value=" æ¸…å­˜ "> 
                 </TD></TR></TBODY></TABLE></TD>
           <TD width=30></TD>
           <TD>
@@ -671,9 +671,9 @@ function radiansToDegress(radians)
                 </TD>
                 <TD><INPUT style="COLOR: red" onClick="operation('/',6)" type=button value=" / "> 
                 </TD>
-                <TD><INPUT style="COLOR: red" onClick="operation('%',6)" type=button value=È¡Óà> 
+                <TD><INPUT style="COLOR: red" onClick="operation('%',6)" type=button value=å–ä½™> 
                 </TD>
-                <TD><INPUT style="COLOR: red" onClick="operation('&amp;',3)" type=button value=" Óë "> 
+                <TD><INPUT style="COLOR: red" onClick="operation('&amp;',3)" type=button value=" ä¸ "> 
                 </TD></TR>
               <TR align=middle>
                 <TD><INPUT style="COLOR: blue" onClick="inputkey('4')" type=button value=" 4 " name=k4> 
@@ -684,9 +684,9 @@ function radiansToDegress(radians)
                 </TD>
                 <TD><INPUT style="COLOR: red" onClick="operation('*',6)" type=button value=" * "> 
                 </TD>
-                <TD><INPUT style="COLOR: red" onClick="inputfunction('floor','deci')" type=button value=È¡Õû name=floor> 
+                <TD><INPUT style="COLOR: red" onClick="inputfunction('floor','deci')" type=button value=å–æ•´ name=floor> 
                 </TD>
-                <TD><INPUT style="COLOR: red" onClick="operation('|',1)" type=button value=" »ò "> 
+                <TD><INPUT style="COLOR: red" onClick="operation('|',1)" type=button value=" æˆ– "> 
                 </TD></TR>
               <TR align=middle>
                 <TD><INPUT style="COLOR: blue" onClick="inputkey('1')" type=button value=" 1 "> 
@@ -697,9 +697,9 @@ function radiansToDegress(radians)
                 </TD>
                 <TD><INPUT style="COLOR: red" onClick="operation('-',5)" type=button value=" - "> 
                 </TD>
-                <TD><INPUT style="COLOR: red" onClick="operation('<',4)" type=button value=×óÒÆ> 
+                <TD><INPUT style="COLOR: red" onClick="operation('<',4)" type=button value=å·¦ç§»> 
                 </TD>
-                <TD><INPUT style="COLOR: red" onClick="inputfunction('~','~')" type=button value=" ·Ç "> 
+                <TD><INPUT style="COLOR: red" onClick="inputfunction('~','~')" type=button value=" é "> 
                 </TD></TR>
               <TR align=middle>
                 <TD><INPUT style="COLOR: blue" onClick="inputkey('0')" type=button value=" 0 "> 
@@ -710,9 +710,9 @@ function radiansToDegress(radians)
                 </TD>
                 <TD><INPUT style="COLOR: red" onClick="operation('+',5)" type=button value=" + "> 
                 </TD>
-                <TD><INPUT style="COLOR: red" onclick=result() type=button value=" £½ "> 
+                <TD><INPUT style="COLOR: red" onclick=result() type=button value=" ï¼ "> 
                 </TD>
-                <TD><INPUT style="COLOR: red" onClick="operation('x',2)" type=button value=Òì»ò> 
+                <TD><INPUT style="COLOR: red" onClick="operation('x',2)" type=button value=å¼‚æˆ–> 
                 </TD></TR>
               <TR align=middle>
                 <TD><INPUT style="COLOR: blue" disabled onClick="inputkey('a')" type=button value=" A " name=ka> 
@@ -723,9 +723,9 @@ function radiansToDegress(radians)
                 </TD>
                 <TD><INPUT style="COLOR: blue" disabled onClick="inputkey('d')" type=button value=" D " name=kd> 
                 </TD>
-                <TD><INPUT style="COLOR: blue" disabled onClick="inputkey('e')" type=button value=" E£ " name=ke> 
+                <TD><INPUT style="COLOR: blue" disabled onClick="inputkey('e')" type=button value=" Eî—¥" name=ke> 
                 </TD>
-                <TD><INPUT style="COLOR: blue" disabled onClick="inputkey('f')" type=button value=" F£ " name=kf> 
+                <TD><INPUT style="COLOR: blue" disabled onClick="inputkey('f')" type=button value=" Fî—¥" name=kf> 
                 </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM></DIV>
 
   <table width="748" height="73" border="0" align="center">
