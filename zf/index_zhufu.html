@@ -1,0 +1,46 @@
+<style type=text/css>
+<!--
+.proccess { 
+ border: 1px solid;
+ width: 4; height: 4;
+ background: white;
+ margin: 4 2;
+}
+body {
+	background-image: url(images/Merry_Christmas-037.jpg);
+}
+.STYLE3 {
+	color: #993300;
+	font-size: 13px;
+	font-family: "新宋体";
+}
+-->
+</style>
+<script language=JavaScript>
+<!--
+var url = 'zhufu.htm';//要加载的网页指向
+
+document.write("<form method=post name=proccess>");
+document.write("<font style=\"font-family:'Times New Roman';font-size:10.5pt\">数据加载中，祝福马上开始</font>");
+for(i=0;i<3;i++)
+document.write("<input class=proccess>")
+document.write("</form>");
+
+var p=0,j=0;
+var c=new Array("lightskyblue","white")
+setInterval('proccess();',100)
+function proccess(){
+document.forms.proccess.elements[p].style.background=c[j];
+p+=1;
+if(p==3){p=0;j=1-j;}
+}
+
+if (document.layers)
+document.write('<Layer src="' + url + ' " VISIBILITY="hide"></Layer>');
+else if (document.all || document.getElementById)
+document.write('<iframe src="' + url + '" style="visibility: hidden;"></iframe>');
+else location.href = url;
+//-->
+</script>
+<body onLoad="self.location.href = url;" style="overflow:hidden;overflow-y:hidden">
+<span class="STYLE3"> <a href="zhufu.htm">点这跳过</a></span> 
